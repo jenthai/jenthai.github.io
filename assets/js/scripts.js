@@ -13,7 +13,7 @@ function scroll_to(clicked_link, nav_height) {
 
 
 jQuery(document).ready(function() {
-	
+
 	/*
 	    Navigation
 	*/
@@ -21,7 +21,7 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 		scroll_to($(this), $('nav').outerHeight());
 	});
-    
+
     /*
 	    Scroll to top
 	*/
@@ -32,42 +32,65 @@ jQuery(document).ready(function() {
 			$('html, body').stop().animate({scrollTop: scroll_to}, 1000);
 		}
 	});
-    
+
+	/**
+ * Listen to scroll to change header opacity class
+ */
+	function checkScroll(){
+	    var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
+
+	    if($(window).scrollTop() > startY){
+	        $('.navbar').addClass("scrolled");
+	    }else{
+	        $('.navbar').removeClass("scrolled");
+	    }
+	}
+
+	if($('.navbar').length > 0){
+	    $(window).on("scroll load resize", function(){
+	        checkScroll();
+	    });
+	}
+
     /*
 	    Wow
 	*/
 	new WOW().init();
-    
+
     /*
         Fullscreen backgrounds
     */
-    $('.page-title').backstretch("assets/img/backgrounds/conference_group5.jpg");
-    $('.page-title-2').backstretch("assets/img/eboard17/DSC_0398.JPG"); /* Exec*/
+
+		$('.page-title').backstretch("assets/img/backgrounds/VSA20 - Ending FN 2.png");
+		$('.page-title-2').backstretch("assets/img/backgrounds/eboard20-Sunflower.jpg");
+
     $('.page-title-3').backstretch("assets/img/backgrounds/ACEphoto.jpg"); /* ACE */
-    $('.page-title-4').backstretch("assets/img/backgrounds/2016-2017-CPP-Beneficiary.jpg"); /* CPP */
-  $('.page-title-5').backstretch("assets/img/backgrounds/eboard15.jpg"); /* Exec 2015-2016*/
-$('.page-title-6').backstretch("assets/img/backgrounds/eboard14.jpg"); /* Exec 2014-2015*/
- $('.page-title-7').backstretch("assets/img/backgrounds/DSC_0588.JPG"); /* Exec 2016-2017*/
+    $('.page-title-4').backstretch("assets/img/backgrounds/cpp20.gif"); /* CPP */
 
+		$('.page-title-5').backstretch("assets/img/backgrounds/eboard15.jpg"); /* Exec 2014-2015*/
+		$('.page-title-6').backstretch("assets/img/backgrounds/eboard16.jpg"); /* Exec 2015-2016*/
+ 		$('.page-title-7').backstretch("assets/img/backgrounds/eboard17.JPG"); /* Exec 2016-2017*/
+    $('.page-title-8').backstretch("assets/img/backgrounds/eboard18.JPG"); /* Exec 2017-2018*/
 
+		$('.page-title-10').backstretch("assets/img/backgrounds/eboard20.jpg");
 
     $('.counters-container').backstretch("assets/img/backgrounds/1.jpg");
     $('.our-motto-container').backstretch("assets/img/backgrounds/grey_logo.jpg");
     $('.call-to-action-container').backstretch("assets/img/backgrounds/grey_logo.jpg");
-	
+
 	/*
 	    Counters
 	*/
 	$('.counters-container').waypoint(function() {
 		$('.counter-box h4').countTo();
 	}, { offset: '100%' });
-	
+
 	/*
 	    Testimonials
 	*/
 	$('.testimonial-active').html('<p>' + $('.testimonial-single:first p').html() + '</p>');
 	$('.testimonial-single:first .testimonial-single-image img').css('opacity', '1');
-	
+
 	$('.testimonial-single-image img').on('click', function() {
 		$('.testimonial-single-image img').css('opacity', '0.3');
 		$(this).css('opacity', '1');
@@ -77,7 +100,7 @@ $('.page-title-6').backstretch("assets/img/backgrounds/eboard14.jpg"); /* Exec 2
 			$(this).fadeIn(400);
 		});
 	});
-	
+
 	/*
 	    Contact form
 	*/
@@ -117,32 +140,32 @@ $('.page-title-6').backstretch("assets/img/backgrounds/eboard14.jpg"); /* Exec 2
 	        }
 	    });
 	});
-    
+
 });
 
 
 
 jQuery(window).load(function() {
-	
+
 	/*
 		Loader
 	*/
 	$(".loader-img").fadeOut();
 	$(".loader").delay(1000).fadeOut("slow");
-	
+
 	/*
 	    Portfolio
 	*/
 
-	
+
 	$('.portfolio-masonry').masonry({
-		columnWidth: '.portfolio-box', 
+		columnWidth: '.portfolio-box',
 		itemSelector: '.portfolio-box',
 		transitionDuration: '0.5s'
 	});
-	
 
-	
+
+
 	$('.portfolio-filters a').on('click', function(e){
 		e.preventDefault();
 		if(!$(this).hasClass('active')) {
@@ -163,9 +186,9 @@ jQuery(window).load(function() {
 	    	}
 		}
 	});
-	
+
 	$(window).on('resize', function(){ $('.portfolio-masonry').masonry(); });
-	
+
     /*
 	    Image popup
 	*/
