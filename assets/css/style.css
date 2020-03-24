@@ -840,9 +840,12 @@ background: url(../img/logo_white.png) center center no-repeat; */
 
 .about-block-2-container h3 span { color: #D8C3A5; }
 
+.about-block-3-container h3 span { color: #D8C3A5; }
+
 .about-social {
     margin-top: 5px;
     font-size: 31px;
+		position: absolute;
 }
 
 .about-social a { margin: 0 10px 0 0; color: #ddd; }
@@ -957,7 +960,7 @@ background: url(../img/logo_white.png) center center no-repeat; */
 footer {
 	position: absolute;
 	width: 100%;
-	padding: 0 0 20px 0;
+	padding: 0 0 10px 0;
 	background: #000;
 	text-align: right;
 }
