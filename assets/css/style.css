@@ -913,7 +913,7 @@ background: url(../img/logo_white.png) center center no-repeat; */
 	transform: rotate(20deg);
 }
 
-/* Gallry Style */
+/* Gallery Style */
 .g-row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
