@@ -69,7 +69,7 @@ jQuery(document).ready(function() {
 
 		$('.page-title-5').backstretch("assets/img/backgrounds/eboard15.jpg"); /* Exec 2014-2015*/
 		$('.page-title-6').backstretch("assets/img/backgrounds/eboard16.jpg"); /* Exec 2015-2016*/
- 		$('.page-title-7').backstretch("assets/img/backgrounds/eboard17.JPG"); /* Exec 2016-2017*/
+ 		$('.page-title-7').backstretch("assets/img/backgrounds/eboard17.jpg"); /* Exec 2016-2017*/
     $('.page-title-8').backstretch("assets/img/backgrounds/eboard18.JPG"); /* Exec 2017-2018*/
 
 		$('.page-title-10').backstretch("assets/img/backgrounds/eboard20.jpg");
