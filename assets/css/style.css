@@ -507,7 +507,12 @@ ul.navbar-nav li a:focus { background: none; color: #D8C3A5; outline: 0; }
 
 .block-3-box p {
 	font-size: 18px;
-    line-height: 32px;
+  line-height: 32px;
+}
+
+.block-3-box ul {
+	font-size: 15px;
+	list-style-type: none;
 }
 
 .block-3-box .block-3-box-icon {
@@ -841,6 +846,7 @@ background: url(../img/logo_white.png) center center no-repeat; */
 .about-block-2-container h3 span { color: #D8C3A5; }
 
 .about-block-3-container h3 span { color: #D8C3A5; }
+.about-block-3-container ul { color: #D8C3A5; }
 
 .about-social {
     margin-top: 5px;
