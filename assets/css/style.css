@@ -493,6 +493,37 @@ ul.navbar-nav li a:focus { background: none; color: #D8C3A5; outline: 0; }
 	padding-bottom: 7px;
 }
 
+/***** Page title 11 - exec board 21*****/
+
+.page-title-11 {
+	padding: 300px 0 300px 0;
+}
+
+.page-title-11-text {
+ background: rgba(255, 255, 255, 0.4);
+	width: 700px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.page-title-11-text h1 {
+	font-size: 45px;
+	color: #000000;
+	text-shadow: 0 1px 6px rgba(51, 51, 51, 0.2);
+}
+
+.page-title-11-text p {
+	margin-top: 20px;
+    font-size: 22px;
+    line-height: 36px;
+    text-shadow: 0 1px 5px rgba(51, 51, 51, 0.4);
+}
+
+.page-title-11-bottom-link {
+	padding-top: 25px;
+	padding-bottom: 7px;
+}
+
 /***** What we do (block 3) *****/
 
 .block-3-box {

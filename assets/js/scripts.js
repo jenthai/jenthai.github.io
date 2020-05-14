@@ -73,7 +73,8 @@ jQuery(document).ready(function() {
  		$('.page-title-7').backstretch("assets/img/backgrounds/eboard17.jpg"); /* Exec 2016-2017*/
     $('.page-title-8').backstretch("assets/img/backgrounds/eboard18.JPG"); /* Exec 2017-2018*/
 
-		$('.page-title-10').backstretch("assets/img/backgrounds/eboard20.jpg");
+		$('.page-title-10').backstretch("assets/img/backgrounds/eboard20.jpg"); /* Exec 2019-2020*/
+		$('.page-title-11').backstretch("assets/img/backgrounds/eboard20.jpg"); /* Exec 2020-2021*/
 
     $('.counters-container').backstretch("assets/img/backgrounds/1.jpg");
     $('.our-motto-container').backstretch("assets/img/backgrounds/grey_logo.jpg");
