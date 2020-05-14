@@ -65,7 +65,8 @@ jQuery(document).ready(function() {
 		$('.page-title-2').backstretch("assets/img/backgrounds/eboard20-Sunflower.jpg");
 
     $('.page-title-3').backstretch("assets/img/backgrounds/ACEphoto.jpg"); /* ACE */
-    $('.page-title-4').backstretch("assets/img/backgrounds/MOL.png"); /* CPP */
+    //$('.page-title-4').backstretch("assets/img/backgrounds/MOL.png"); /* CPP */
+		$('.page-title-4').backstretch("assets/img/mentors/WR1.jpg");
 
 		$('.page-title-5').backstretch("assets/img/backgrounds/eboard15.jpg"); /* Exec 2014-2015*/
 		$('.page-title-6').backstretch("assets/img/backgrounds/eboard16.jpg"); /* Exec 2015-2016*/
