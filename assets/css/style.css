@@ -657,6 +657,23 @@ ul.navbar-nav li a:focus { background: none; color: #D8C3A5; outline: 0; }
 	margin: 0 auto;
 }
 
+/***** Mentors Button *****/
+.button {
+		background-color: #D8C3A5;
+	  border: none;
+	  color: #000;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+		border-radius: 12px;
+}
+
+.button:hover {
+  background-color: rgba(216,	195, 165, 0.6);
+  color: #000;
+}
 
 /***** Counters *****/
 
