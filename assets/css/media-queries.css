@@ -98,7 +98,8 @@ only screen and (                min-resolution: 2dppx) {
 
 	/* logo */
     .navbar-brand {
-			background-image: url(../img/logo_white.png) !important; background-repeat: no-repeat !important; background-size: 117px 47px !important;
+			background-image: url(../img/vsalogo2020words.png) !important; background-repeat: no-repeat !important; background-size: 117px 47px !important;
+			/* background-image: url(../img/logo_white.png) !important; background-repeat: no-repeat !important; background-size: 117px 47px !important; */
     } /* logo@2x.png*/
 
 }
