@@ -200,10 +200,11 @@ ul.navbar-nav li a:focus { background: none; color: #D8C3A5; outline: 0; }
 .navbar>.container .navbar-brand { margin-left: 0; }
 
 .navbar-brand {
-	width: 350px; /* 294px;*/
+	width: 294px; /* 294px;*/
 	height: 66px;
 	/* background: url(../img/logo_white.png) left center no-repeat; */
-	background: url(../img/vsalogo2020words.png) left center no-repeat;
+	/* background: url(../img/vsalogo2020words.png) left center no-repeat; */
+	background: url(../img/vsalogo2020words2.png) left center no-repeat;
 	text-indent: -99999px;
 }
 
