@@ -1,0 +1,30 @@
+/* .hero-image {
+    background-image: url("assets/img/familynight/fn43banner.png"); */
+  
+    /* Set a specific height */
+    /* height: 100%; */
+  
+    /* Position and center the image to scale nicely on all screens */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  } */
+
+/* .is-medium {
+    background-color: blanchedalmond;
+} */
+
+body {
+    text-align: left;
+}
+
+.chris img {
+    width: 200;
+    height: 200px;
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
