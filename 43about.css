@@ -1,20 +1,3 @@
-/* .hero-image {
-    background-image: url("assets/img/familynight/fn43banner.png"); */
-  
-    /* Set a specific height */
-    /* height: 100%; */
-  
-    /* Position and center the image to scale nicely on all screens */
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  } */
-
-/* .is-medium {
-    background-color: blanchedalmond;
-} */
-
 body {
     text-align: left;
 }
@@ -28,3 +11,89 @@ body {
     margin-right: auto;
     width: 75%;
 }
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-item {
+    color: white;
+}
+
+div.navbar-end a:hover {
+    color: #D8C3A5;
+    background-color: transparent;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  /* FAQ
+================================ */
+
+/*Question*/
+.question {
+    position: relative;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 10px 10px 10px 50px;
+    display: block;
+    width:100%;
+    cursor: pointer;
+}
+/*Answer*/
+.answers {
+    padding: 0px 15px;
+    margin: 5px 0;
+    width:100%!important;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+}
+  
+.questions:checked ~ .answers{
+    height: auto;
+    opacity: 1;
+    padding: 15px;
+    
+}
+  
+/*FAQ Toggle*/
+.plus {
+    position: absolute;
+    margin-left: 10px;
+    z-index: 5;
+    font-size: 2em;
+    line-height: 100%;
+    -webkit-user-select: none;    
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+}
+  
+.questions:checked ~ .plus {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+  
+.questions {
+    display: none;
+}  

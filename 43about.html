@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="has-navbar-fixed-top">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,24 +8,53 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <!-- <link rel="stylesheet" href="assets/elegant-font/code/style.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/form-elements.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/css/media-queries.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="43about.css">
+
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="assets/img/logo_white_16.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 </head>
 <body>
     <!-- NAV BAR -->
-    <div id="navbar">
-        <a href="https://issuu.com/girlgeniusmagazine/docs/issue_iv", target="_blank">MAGAZINE</a>
-        <a href="43program.html">PROGRAM</a>
-        <a href="https://www.youtube.com/watch?v=4pWCcb4kTpU", target="_blank">LIVESTREAM</a>
-        <a href="#">ABOUT</a>
-    </div>
+    <nav class="navbar is-fixed-top hero-head">
+        <div class="container">
+            <div class="navbar-start">
+                <a class="navbar-brand" href="index.html">UMCP VSA</a>
+            </div>
+            <div class="navbar-end">
+                <a class="navbar-item" href="#">ABOUT</a>
+                <a class="navbar-item" href="https://www.youtube.com/user/vsaumcp" target="_blank">LIVESTREAM</a>
+                <a class="navbar-item" href="43program.html">PROGRAM</a>
+                <a class="navbar-item" href="https://issuu.com/girlgeniusmagazine/docs/issue_iv" target="_blank">MAGAZINE</a>
+            </div>
+        </div>
+    </nav>
 
     <!-- HERO -->
-    <section class="hero is-fullheight">
-        <img src="assets/img/familynight/fn43banner.png" alt="FN 43 Banner">
+    <section class="hero is-primary is-fullheight">
+        <img src="assets/img/familynight/fn43hero.png" alt="FN 43 Banner">
+        <div class="hero-text">
+            <h3 class="subtitle is-4" style="color: white;">UMCP VSA 43rd Family Night</h3>
+            <h1 class="title is-1" style="color: white;">OPERATION: PSEUDO PARADISE</h1>
+            <p class="subtitle is-3" style="color: white;">March 27, 2021 | 6:30 PM
+            <br>
+            Youtube Livestream
+            </p>
+        </div>
     </section>
-    
+
+    <br><br>
+    <!-- CONTENT -->
     <section class="container block is-max-widescreen">
         <div class="columns">
             <div class="column">
@@ -43,6 +72,7 @@
             </div>
         </div>
 
+        <br><br>
         <div class="box">
             <div class="columns">
                 <div class="column chris is-one-quarter">
@@ -63,11 +93,98 @@
             </div>
         </div>
 
+        <br><br>
         <div class="box">
             <h1 class="title is-2">FAQs</h1>
+            <div class="content">
+                <div>
+                    <input type="checkbox" id="question1" name="q"  class="questions">
+                    <div class="plus">+</div>
+                    <label for="question1" class="question">
+                    What is Family Night?
+                    </label>
+                    <div class="answers">
+                    Family Night is our annual Spring cultural show, showcasing Vietnamese culture.
+                    The show includes a skit, integrated with traditional fashion, traditional dance,
+                    modern fashion, modern dance, commercials, and other performances!
+                    <br><br>
+                    Each year, the VSA community, family, and friends come together to celebrate the 
+                    hard work of the community and reminisce on the fond memories created through 
+                    months of practice.
+                    </div>
+                </div>
+                
+                <div>
+                  <input type="checkbox" id="question2" name="q" class="questions">
+                  <div class="plus">+</div>
+                  <label for="question2" class="question">
+                    How will this year's Family Night be different due to the COVID-19 pandemic?
+                  </label>
+                  <div class="answers">
+                    Instead of a live performance at STAMP Hoff Theater, this year's Family Night is
+                    <strong>VIRTUAL</strong>! Each performance is pre-recorded and edited, and will
+                    be premiered on <a href="https://www.youtube.com/user/vsaumcp" target="_blank">Livestream</a> 
+                    for all to enjoy.
+                    <br><br>
+                    A big thank you to all the performers for their committment to virtual practices, following our COVID safety protocols,
+                    and making Family Night 43 a magical experience. We also thank the Video and Editing Crew for all their hard work to
+                    make this virtual experience possible.
+                  </div>
+                </div>
+                  
+                <div>
+                  <input type="checkbox" id="question3" name="q" class="questions">
+                  <div class="plus">+</div>
+                  <label for="question3" class="question">
+                    How can I attend Family Night?  
+                  </label>
+                  <div class="answers">
+                    On March 27 at 6:30pm, head over to the <a href="https://www.youtube.com/user/vsaumcp" target="_blank">Livestream</a>
+                    tab to watch the show live and chat in real time with other viewers!
+                  </div>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="question4" name="q" class="questions">
+                    <div class="plus">+</div>
+                    <label for="question4" class="question">
+                      What is Góp Gió Magazine?  
+                    </label>
+                    <div class="answers">
+                        Góp Gió (meaning "catching wind") is the magazine that UMCP VSA distributes every year to highlight events, 
+                        accomplishments, and the diversity of our community as we continue to learn about our culture and carry on traditions.
+                        <br><br>
+                        This year, our magazine is <strong>electronic</strong>! Look back on our 2020-2021 memories by clicking on the 
+                        <a href="https://issuu.com/girlgeniusmagazine/docs/issue_iv" target="_blank">Magazine</a> tab!
+                    </div>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="question5" name="q" class="questions">
+                    <div class="plus">+</div>
+                    <label for="question5" class="question">
+                      Who can attend Family Night?  
+                    </label>
+                    <div class="answers">
+                      Anyone can attend Family Night! Family Night is a family-friendly show!
+                    </div>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="question6" name="q" class="questions">
+                    <div class="plus">+</div>
+                    <label for="question6" class="question">
+                      Other Questions?  
+                    </label>
+                    <div class="answers">
+                      Email us at <a href="mailto:vsaumcp@gmail.com">vsaumcp@gmail.com</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    
+
+    <!-- FOOTER -->
     <footer>
         <div class="container">
             <div class="row">
@@ -90,5 +207,16 @@
             </div>
         </div>
     </footer>
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/retina-1.1.0.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.countTo.js"></script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>
