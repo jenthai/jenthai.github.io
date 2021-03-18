@@ -17,6 +17,10 @@ body {
     background-color: black;
 }
 
+.navbar-menu {
+  background-color: black;
+}
+
 .navbar-item {
     color: white;
 }
@@ -64,14 +68,14 @@ div.navbar-end a:hover {
     -o-transition: .3s ease;
     transition: .3s ease;
 }
-  
+
 .questions:checked ~ .answers{
     height: auto;
     opacity: 1;
     padding: 15px;
-    
+
 }
-  
+
 /*FAQ Toggle*/
 .plus {
     position: absolute;
@@ -79,7 +83,7 @@ div.navbar-end a:hover {
     z-index: 5;
     font-size: 2em;
     line-height: 100%;
-    -webkit-user-select: none;    
+    -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     -o-user-select: none;
@@ -89,17 +93,17 @@ div.navbar-end a:hover {
     -o-transition: .3s ease;
     transition: .3s ease;
 }
-  
+
 .questions:checked ~ .plus {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-  
+
 .questions {
     display: none;
-}  
+}
 
 /* TITLE FADE
 ================================ */

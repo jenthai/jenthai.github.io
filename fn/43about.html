@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="has-navbar-fixed-top">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/form-elements.css"> -->
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/43style.css">
     <!-- <link rel="stylesheet" href="assets/css/media-queries.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="43about.css">
@@ -28,14 +28,25 @@
     <!-- NAV BAR -->
     <nav class="navbar is-fixed-top hero-head is-transparent">
         <div class="container">
-            <div class="navbar-start">
-                <a class="navbar-brand" href="index.html">UMCP VSA</a>
+            <div class="navbar-brand">
+                <a class="navbar-item" href="../index.html">
+                    <img src="../assets/img/vsalogo2020words2.png" alt="">
+                </a>
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" >
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
             </div>
-            <div class="navbar-end">
-                <a class="navbar-item" href="#">ABOUT</a>
-                <a class="navbar-item" href="https://www.youtube.com/user/vsaumcp" target="_blank">LIVESTREAM</a>
-                <a class="navbar-item" href="43program.html">PROGRAM</a>
-                <a class="navbar-item" href="https://issuu.com/girlgeniusmagazine/docs/issue_iv" target="_blank">MAGAZINE</a>
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start"></div>
+                <div class="navbar-end">
+                    <a class="navbar-item" href="#">ABOUT</a>
+                    <a class="navbar-item" href="https://www.youtube.com/user/vsaumcp" target="_blank">LIVESTREAM</a>
+                    <a class="navbar-item" href="43program.html">PROGRAM</a>
+                    <a class="navbar-item" href="https://issuu.com/girlgeniusmagazine/docs/issue_iv" target="_blank">MAGAZINE</a>
+                </div>
             </div>
         </div>
     </nav>
@@ -53,7 +64,8 @@
         </div>
     </section>
 
-    <br><br>
+    <div class="section-container"></div>
+    <div class="section-container"></div>
     <!-- CONTENT -->
     <section class="container block is-max-widescreen">
         <div class="columns">
@@ -218,5 +230,6 @@
     <script src="../assets/js/jquery.countTo.js"></script>
     <script src="../assets/js/masonry.pkgd.min.js"></script>
     <script src="../assets/js/scripts.js"></script>
+    <script src="./43nav.js"></script>
 </body>
 </html>
