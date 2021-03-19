@@ -30,6 +30,11 @@ div.navbar-end a:hover {
     background-color: transparent;
 }
 
+div.navbar-end a:focus {
+    color: #D8C3A5;
+    background-color: transparent;
+}
+
 /* HERO
 ================================ */
 .hero-text {
