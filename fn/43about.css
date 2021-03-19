@@ -46,6 +46,13 @@ div.navbar-end a:focus {
     color: white;
   }
 
+  .hero {
+    background: black url("../assets/img/familynight/fn43header.png") center / cover;
+  }
+
+  /* @media (max-width: 1024px) { .hero { background: black url() center / cover; } }
+  @media (max-width: 768px) { .hero { background: black url() center / cover; } } */
+
   /* FAQ
 ================================ */
 
