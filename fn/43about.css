@@ -46,6 +46,24 @@ div.navbar-end a:focus {
     color: white;
   }
 
+  .hero-text h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  .hero-text h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .hero-text p {
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
   .hero {
     background: black url("../assets/img/familynight/fn43header.png") center / cover;
   }
