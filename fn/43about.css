@@ -65,7 +65,7 @@ div.navbar-end a:focus {
   }
 
   .hero {
-    background: black url("../assets/img/familynight/fn43header.png") center / cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/familynight/fn43header.png") center / cover;
   }
 
   /* @media (max-width: 1024px) { .hero { background: black url() center / cover; } }
