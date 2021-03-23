@@ -43,3 +43,11 @@
 .box > .table.is-fullwidth th:last-child {
     padding-right:  1.25rem;
 }
+
+.fnposition {
+  font-weight: bold;
+}
+
+.song {
+  font-style: italic;
+}
