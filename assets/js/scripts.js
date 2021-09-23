@@ -75,6 +75,7 @@ jQuery(document).ready(function() {
 
 		$('.page-title-10').backstretch("assets/img/backgrounds/eboard20.jpg"); /* Exec 2019-2020*/
 		$('.page-title-11').backstretch("assets/img/backgrounds/eboard21.jpg"); /* Exec 2020-2021*/
+		$('.page-title-12').backstretch("assets/img/backgrounds/eboard22.jpg"); /* Exec 2020-2021*/
 
     $('.counters-container').backstretch("assets/img/backgrounds/1.jpg");
     $('.our-motto-container').backstretch("assets/img/backgrounds/grey_logo.jpg");
