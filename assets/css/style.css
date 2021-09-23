@@ -483,18 +483,46 @@ ul.navbar-nav li a:focus { background: none; color: #D8C3A5; outline: 0; }
 	text-shadow: 0 1px 6px rgba(51, 51, 51, 0.2);
 }
 
-.page-title-10-text p {
-	margin-top: 20px;
-    font-size: 22px;
-    line-height: 36px;
-    text-shadow: 0 1px 5px rgba(51, 51, 51, 0.4);
+/* Medium sized screen*/
+@media screen and (max-width: 770px) {
+	.page-title-10 {
+		padding: 275px 0 275px 0;
+		/* how much of the banner image is showing */
+	}
+
+	.page-title-10-text {
+	 	background: rgba(255, 255, 255, 0.4);
+		width: 550px;
+		margin: 0 auto;
+		color: #fff;
+	}
+
+	.page-title-10-text h1 {
+		font-size: 30px;
+		color: #000000;
+		text-shadow: 0 1px 6px rgba(51, 51, 51, 0.2);
+	}
 }
 
-.page-title-10-bottom-link {
-	padding-top: 25px;
-	padding-bottom: 7px;
-}
+/* Mobile screens */
+@media screen and (max-width: 480px) {
+	.page-title-10 {
+		padding: 75px 0 75px 0;
+	}
 
+	.page-title-10-text {
+	 	background: rgba(255, 255, 255, 0.4);
+		width: 320px;
+		margin: 0 auto;
+		color: #fff;
+	}
+
+	.page-title-10-text h1 {
+		font-size: 20px;
+		color: #000000;
+		text-shadow: 0 1px 6px rgba(51, 51, 51, 0.2);
+	}
+}
 /***** Page title 11 - exec board 21*****/
 
 .page-title-11 {
@@ -514,26 +542,56 @@ ul.navbar-nav li a:focus { background: none; color: #D8C3A5; outline: 0; }
 	text-shadow: 0 1px 6px rgba(51, 51, 51, 0.2);
 }
 
-.page-title-11-text p {
-	margin-top: 20px;
-    font-size: 22px;
-    line-height: 36px;
-    text-shadow: 0 1px 5px rgba(51, 51, 51, 0.4);
+/* Medium sized screen*/
+@media screen and (max-width: 770px) {
+	.page-title-11 {
+		padding: 200px 0 200px 0;
+		/* how much of the banner image is showing */
+	}
+
+	.page-title-11-text {
+	 	background: rgba(255, 255, 255, 0.4);
+		width: 550px;
+		margin: 0 auto;
+		color: #fff;
+	}
+
+	.page-title-11-text h1 {
+		font-size: 30px;
+		color: #000000;
+		text-shadow: 0 1px 6px rgba(51, 51, 51, 0.2);
+	}
 }
 
-.page-title-11-bottom-link {
-	padding-top: 25px;
-	padding-bottom: 7px;
+/* Mobile screens */
+@media screen and (max-width: 480px) {
+	.page-title-11 {
+		padding: 125px 0 125px 0;
+	}
+
+	.page-title-11-text {
+	 	background: rgba(255, 255, 255, 0.4);
+		width: 320px;
+		margin: 0 auto;
+		color: #fff;
+	}
+
+	.page-title-11-text h1 {
+		font-size: 20px;
+		color: #000000;
+		text-shadow: 0 1px 6px rgba(51, 51, 51, 0.2);
+	}
 }
 
 /***** Page title 12 - exec board 22*****/
 
 .page-title-12 {
-	padding: 200px 0 200px 0;
+	padding: 225px 0 225px 0;
+	/* how much of the banner image is showing */
 }
 
 .page-title-12-text {
- background: rgba(255, 255, 255, 0.4);
+	background: rgba(255, 255, 255, 0.4);
 	width: 700px;
 	margin: 0 auto;
 	color: #fff;
@@ -545,16 +603,45 @@ ul.navbar-nav li a:focus { background: none; color: #D8C3A5; outline: 0; }
 	text-shadow: 0 1px 6px rgba(51, 51, 51, 0.2);
 }
 
-.page-title-12-text p {
-	margin-top: 20px;
-    font-size: 22px;
-    line-height: 36px;
-    text-shadow: 0 1px 5px rgba(51, 51, 51, 0.4);
+/* Medium sized screen*/
+@media screen and (max-width: 770px) {
+	.page-title-12 {
+		padding: 200px 0 200px 0;
+		/* how much of the banner image is showing */
+	}
+
+	.page-title-12-text {
+	 	background: rgba(255, 255, 255, 0.4);
+		width: 550px;
+		margin: 0 auto;
+		color: #fff;
+	}
+
+	.page-title-12-text h1 {
+		font-size: 30px;
+		color: #000000;
+		text-shadow: 0 1px 6px rgba(51, 51, 51, 0.2);
+	}
 }
 
-.page-title-12-bottom-link {
-	padding-top: 25px;
-	padding-bottom: 7px;
+/* Mobile screens */
+@media screen and (max-width: 480px) {
+	.page-title-12 {
+		padding: 135px 0 135px 0;
+	}
+
+	.page-title-12-text {
+	 	background: rgba(255, 255, 255, 0.4);
+		width: 320px;
+		margin: 0 auto;
+		color: #fff;
+	}
+
+	.page-title-12-text h1 {
+		font-size: 20px;
+		color: #000000;
+		text-shadow: 0 1px 6px rgba(51, 51, 51, 0.2);
+	}
 }
 
 /***** What we do (block 3) *****/
